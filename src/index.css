@@ -22,13 +22,12 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
-}
+} */
 
 h1 {
   font-size: 3.2em;
@@ -65,4 +64,17 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.app{
+  width: 1200px;
+  margin: auto;
+}
+.app input{
+  width: 500px;
+  height: 30px;
+  margin:20px
+}
+.app button {
+  background-color: deepskyblue;
+  margin: 10px;
 }
